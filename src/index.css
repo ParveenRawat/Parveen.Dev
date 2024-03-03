@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hover-navitem {
+    @apply  hover:underline-offset-4 hover:border-b-2 hover:border-b-palegray transition-all hover:px-2 duration-100 ease-in;
+}

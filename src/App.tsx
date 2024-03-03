@@ -1,7 +1,14 @@
-import "./App.css";
+import './App.css'
+import Navbar from './components/navbar'
 
 function App() {
-  return <></>;
+    return (
+        <>
+            <div className=" bg-palewhite">
+                <Navbar></Navbar>
+            </div>
+        </>
+    )
 }
 
-export default App;
+export default App
