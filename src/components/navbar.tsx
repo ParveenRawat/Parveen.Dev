@@ -8,13 +8,13 @@ import {
 
 import { useState } from 'react'
 const Navbar = () => {
-    const [Navopen, setNavopen] = useState(true)
+    const [Navopen, setNavopen] = useState(false)
     function toggleNavopen(Navopen: boolean) {
         setNavopen(!Navopen)
     }
     return (
         <>
-            <div className="flex  items-center justify-between bg-black">
+            <div className="flex shadow-md border-b-[1px] border-b-palewhite shadow-paleblue items-center justify-between bg-black">
                 <div>
                     <span className="m-2 ml-5 flex-nowrap text-nowrap text-xl text-white">
                         Parveen Rawat
@@ -61,12 +61,12 @@ const Navbar = () => {
                 </div>
             </div>
             {Navopen ? (
-                <div className=" flex flex-row justify-center gap-4 border-t-[1px] border-x-white bg-black p-5 text-white">
+                <div className="flex flex-row justify-center gap-4 border-t-[1px] border-b-[1px] border-x-white bg-black p-5 text-white">
                     <div className="m-1">
-                        <div className="m-2 font-bold">Home</div>
-                        <div className="m-2 font-bold">About</div>
-                        <div className="m-2 font-bold">Projects</div>
-                        <div className="m-2 font-bold">Contact</div>
+                        <div className="m-2 hover-dropdown"><span>Home</span></div>
+                        <div className="m-2 hover-dropdown">About</div>
+                        <div className="m-2 hover-dropdown">Projects</div>
+                        <div className="m-2 hover-dropdown">Contact</div>
                     </div>
                 </div>
             ) : (
