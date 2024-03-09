@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .hover-navitem {
-    @apply transition-all duration-100 ease-in hover:border-b-2 hover:border-b-palegray hover:px-2 hover:underline-offset-4;
+    @apply transition-all duration-75 ease-in hover:border-b-2 hover:border-b-palewhite hover:px-2 hover:underline-offset-4;
 }
 .hover-dropdown {
     @apply cursor-pointer transition-all duration-200 ease-linear hover:underline;

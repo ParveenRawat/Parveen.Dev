@@ -6,14 +6,14 @@ import Projects from './components/Projects.tsx'
 function App() {
     return (
         <>
-            <div className='bg-black'>
-                <div className=" bg-palewhite">
+            <div className="bg-black">
+                <div>
                     <Navbar></Navbar>
                 </div>
-                <div >
-                    <Hero></Hero>
-                </div>\
                 <div>
+                    <Hero></Hero>
+                </div>
+                <div className="bg-black">
                     <Projects></Projects>
                 </div>
             </div>

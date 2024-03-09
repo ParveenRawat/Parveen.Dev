@@ -14,9 +14,9 @@ const Navbar = () => {
     }
     return (
         <>
-            <div className="flex shadow-md border-b-[1px] border-b-palewhite shadow-paleblue items-center justify-between bg-black">
+            <div className=" fixed left-0 top-0 z-20 flex w-screen items-center justify-between border-b-[1px] border-b-palewhite bg-black bg-opacity-10 text-opacity-100 shadow-md shadow-paleblue backdrop-blur-md backdrop-brightness-[0.5]">
                 <div>
-                    <span className="m-2 ml-5 flex-nowrap text-nowrap text-xl text-white">
+                    <span className="m-2 ml-5  flex-nowrap text-nowrap text-xl text-white">
                         Parveen Rawat
                     </span>
                 </div>
@@ -61,12 +61,12 @@ const Navbar = () => {
                 </div>
             </div>
             {Navopen ? (
-                <div className="flex flex-row justify-center gap-4 border-t-[1px] border-b-[1px] border-x-white bg-black p-5 text-white">
-                    <div className="m-1">
-                        <div className="m-2 hover-dropdown"><span>Home</span></div>
-                        <div className="m-2 hover-dropdown">About</div>
-                        <div className="m-2 hover-dropdown">Projects</div>
-                        <div className="m-2 hover-dropdown">Contact</div>
+                <div className="fixed right-0 top-20 z-20 flex h-screen w-[60%] flex-row justify-center border-l-[1px] border-t-[1px] border-x-white bg-black bg-opacity-40 p-5  text-xl  text-white backdrop-blur-md backdrop-brightness-[0.7] md:hidden">
+                    <div className="mt-[45%] flex flex-col gap-8">
+                        <div className=" hover-dropdown ">Home</div>
+                        <div className=" hover-dropdown ">About</div>
+                        <div className=" hover-dropdown ">Projects</div>
+                        <div className=" hover-dropdown ">Contact</div>
                     </div>
                 </div>
             ) : (
