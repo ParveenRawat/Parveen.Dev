@@ -14,10 +14,12 @@ const Navbar = () => {
     }
     return (
         <>
+            {/* TODO : FIX : Social Links */}
+            {/* TODO : FIX : navbar and sidebar hover  */}
             <div className=" fixed left-0 top-0 z-20 flex w-screen items-center justify-between border-b-[1px] border-b-palewhite bg-black bg-opacity-10 text-opacity-100 shadow-md shadow-paleblue backdrop-blur-md backdrop-brightness-[0.5]">
                 <div>
                     <span className="m-2 ml-5  flex-nowrap text-nowrap text-xl text-white">
-                        Parveen Rawat
+                        Parveen.Dev
                     </span>
                 </div>
 

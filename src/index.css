@@ -8,3 +8,7 @@
 .hover-dropdown {
     @apply cursor-pointer transition-all duration-200 ease-linear hover:underline;
 }
+
+.about-item {
+    @apply border border-paleblue rounded-xl p-2 m-1
+}

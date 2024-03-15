@@ -5,7 +5,8 @@ import { SparklesCore } from './ui/sparkles'
 const hero = () => {
     return (
         <>
-            {/* TODO : tech info */}
+            {/* TODO : ADD : Tech Stack */}
+            {/* TODO : FIX : Button Links */}
             <div className="relative top-20 flex h-[50rem] w-full flex-col justify-center overflow-hidden bg-black">
                 <div className="absolute inset-0 h-screen w-full">
                     <SparklesCore
