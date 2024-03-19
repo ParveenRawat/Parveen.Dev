@@ -6,27 +6,27 @@ const Footer = () => {
                     ©Parveen.Dev
                 </p>
                 <ProjectItem
-                    pic="src/assets/vite.png"
+                    pic="./assets/vite.png"
                     title="Vite"
                 ></ProjectItem>
                 <ProjectItem
-                    pic="src/assets/react.png"
+                    pic="./assets/react.png"
                     title="React"
                 ></ProjectItem>
                 <ProjectItem
-                    pic="src/assets/typescript.png"
+                    pic="./assets/typescript.png"
                     title="TypeScript"
                 ></ProjectItem>
                 <ProjectItem
-                    pic="src/assets/tailwindcss.png"
+                    pic="./assets/tailwindcss.png"
                     title="Tailwind"
                 ></ProjectItem>
                 <ProjectItem
-                    pic="src/assets/aceUI.png"
+                    pic="./assets/aceUI.png"
                     title="AceternityUI"
                 ></ProjectItem>
                 <ProjectItem
-                    pic="src/assets/heart.png"
+                    pic="./assets/heart.png"
                     title="Love"
                 ></ProjectItem>
             </div>

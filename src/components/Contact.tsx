@@ -1,8 +1,8 @@
 import { useState } from 'react'
 
 const Contact = () => {
-    const [result, setResult] = useState('Submitted ')
-    const [isVisible, setVisible] = useState(true)
+    const [result, setResult] = useState('')
+    const [isVisible, setVisible] = useState(false)
 
     const handleChange = (e) => {
         if (e.keyCode == 13) {
@@ -58,7 +58,7 @@ const Contact = () => {
                     <div className="absolute inset-x-60 top-0 h-px w-1/4 bg-gradient-to-r from-transparent via-sky-500 to-transparent" />
                 </div>
 
-                <div className="m-4 h-[60vh] w-[90%] rounded-3xl bg-gray-600 bg-opacity-10 p-2 pt-3 backdrop-blur-md lg:w-[60%] ">
+                <div className="m-4 h-[65vh] w-[90%] rounded-3xl bg-gray-600 bg-opacity-10 p-2 pt-3 backdrop-blur-md lg:h-[60vh] lg:w-[60%] ">
                     <form
                         onSubmit={onSubmit}
                         id="form"

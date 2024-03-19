@@ -21,11 +21,11 @@ const Projects = () => {
                             algorithm and Natural Language Processing to find
                             sentiment of the text with advanced techniques such
                             as lemmatization."
-                    head="src/assets/Email.png"
+                    head="./assets/Email.png"
                     tech={[
-                        'src/assets/Python.png',
-                        'src/assets/SciKitLearn.png',
-                        'src/assets/JupyterNotebook.png',
+                        './assets/Python.png',
+                        './assets/SciKitLearn.png',
+                        './assets/JupyterNotebook.png',
                     ]}
                     link="https://github.com/ParveenRawat/MachineLearning/blob/main/emailclassificationwithNB.ipynb"
                 />
@@ -36,11 +36,11 @@ const Projects = () => {
                           voluptate ab repellendus reiciendis voluptatibus. Odit
                            ab obcaecati error, eos deserunt praesentium vero quasi 
                            deleniti."
-                    head="src/assets/Cog.png"
+                    head="./assets/Cog.png"
                     tech={[
-                        'src/assets/Cog.png',
-                        'src/assets/Cog.png',
-                        'src/assets/Cog.png',
+                        './assets/Cog.png',
+                        './assets/Cog.png',
+                        './assets/Cog.png',
                     ]}
                     link="https://www.google.com/"
                 />
@@ -51,11 +51,11 @@ const Projects = () => {
                           voluptate ab repellendus reiciendis voluptatibus. Odit
                            ab obcaecati error, eos deserunt praesentium vero quasi 
                            deleniti."
-                    head="src/assets/Cog.png"
+                    head="./assets/Cog.png"
                     tech={[
-                        'src/assets/Cog.png',
-                        'src/assets/Cog.png',
-                        'src/assets/Cog.png',
+                        './assets/Cog.png',
+                        './assets/Cog.png',
+                        './assets/Cog.png',
                     ]}
                     link="https://www.google.com/"
                 />
@@ -66,11 +66,11 @@ const Projects = () => {
                     voluptate ab repellendus reiciendis voluptatibus. Odit
                     ab obcaecati error, eos deserunt praesentium vero quasi 
                     deleniti."
-                    head="src/assets/Cog.png"
+                    head="./assets/Cog.png"
                     tech={[
-                        'src/assets/Cog.png',
-                        'src/assets/Cog.png',
-                        'src/assets/Cog.png',
+                        './assets/Cog.png',
+                        './assets/Cog.png',
+                        './assets/Cog.png',
                     ]}
                     link="https://www.google.com/"
                 />

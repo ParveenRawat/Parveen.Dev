@@ -1,7 +1,7 @@
 const About = () => {
     return (
         <>
-            <div id="about" className="mt-20 flex flex-col items-center  overflow-hidden rounded-md bg-black bg-opacity-85">
+            <div id="about" className="mt-40 flex flex-col items-center  overflow-hidden rounded-md bg-black bg-opacity-85">
                 <h1 className="relative z-10 text-center text-5xl font-bold text-white md:text-6xl lg:text-7xl">
                     ABOUT ME
                 </h1>
@@ -15,7 +15,7 @@ const About = () => {
                 <div className="m-5 mb-10 flex w-[90%] flex-col items-center rounded-3xl bg-gray-600 bg-opacity-10 p-2 text-white backdrop-blur lg:w-[85%] lg:flex-row lg:flex-wrap">
                     <img
                         className="m-5 w-[40%] rounded-xl border border-black text-5xl text-white lg:col-span-1 lg:col-start-1 lg:mx-[40%] lg:w-[20%]"
-                        src="src/assets/Photo.png"
+                        src="./assets/Photo.png"
                         alt="It's Me Parveen"
                     ></img>
                     <div className="m-1 flex-wrap flex justify-center lg:mx-2 lg:flex  lg:flex-row lg:gap-2">
