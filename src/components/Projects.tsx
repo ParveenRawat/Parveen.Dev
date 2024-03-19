@@ -1,6 +1,6 @@
 const Projects = () => {
     return (
-        <div className="bg-black">
+        <div id="project" className="bg-black">
             <div className=" flex flex-col items-center justify-center overflow-hidden rounded-md bg-black bg-opacity-85">
                 <h1 className="relative z-10 text-center text-5xl font-bold text-white md:text-6xl lg:text-7xl">
                     PROJECTS
@@ -12,7 +12,7 @@ const Projects = () => {
                     <div className="absolute inset-x-60 top-0 h-px w-1/4 bg-gradient-to-r from-transparent via-sky-500 to-transparent" />
                 </div>
             </div>
-            <div className="m-2 mb-0 mt-10 grid grid-cols-1 grid-rows-4 justify-items-center lg:grid-cols-2 lg:grid-rows-2">
+            <div className="m-2 mb-0 mt-10 grid grid-cols-1 grid-rows-4 justify-items-center lg:m-10 lg:grid-cols-2 lg:grid-rows-2 lg:gap-1">
                 <ProjectItem
                     title="Email Spam Detector"
                     info="Created an email spam detector that detects spam
@@ -90,41 +90,41 @@ const ProjectItem: React.FC<{
 }> = ({ title, info, head, tech, link }) => {
     return (
         <>
-            <div className="m-2 rounded-3xl bg-gray-600 bg-opacity-10 p-2 backdrop-blur">
+            <div className="m-2 rounded-3xl border-2 border-paleblue bg-gray-600 bg-opacity-10 p-2 backdrop-blur">
                 <div className="grid-row-2 grid grid-cols-2 place-items-center justify-items-center sm:grid-cols-3 ">
-                    <h1 className="col-span-2 mb-4 pt-4 text-center text-4xl font-semibold text-white sm:col-span-3">
+                    <h1 className="col-span-2 mb-4 pt-4 text-center text-2xl sm:text-4xl font-semibold text-white sm:col-span-3">
                         {title}
                     </h1>
                     <img
                         src={head}
                         alt="project.jpg"
-                        className="col-span-2 w-[50%] rounded-2xl border-2 border-palewhite   sm:col-span-1 sm:row-span-3 sm:w-[80%]"
+                        className="col-span-2 w-[50] rounded-2xl border-2 border-palewhite sm:col-span-1 sm:row-span-1 sm:w-[80%]"
                     ></img>
-                    <p className="col-span-2 p-5 text-center text-white">
+                    <p className="col-span-2 m-1 p-5 text-center text-white">
                         {info}
                     </p>
-                    <p className="col-span-2 p-2  text-xl font-semibold text-white">
+                    <p className="col-span-3 p-2  text-xl font-semibold text-white">
                         Technologies Used
                     </p>
                     {/* TODO UPDATE TO FOR LOOP */}
-                    <div className="col-span-2 flex justify-center p-3">
+                    <div className="col-span-3 flex h-28 justify-center p-3">
                         <img
                             src={tech[0]}
                             alt="image-1"
-                            className="align-left  w-[20%] rounded-full border-[1px] border-palegreen "
+                            className="align-left  w-22 rounded-full border-[1px] border-palegreen "
                         ></img>
                         <img
                             src={tech[1]}
                             alt="image-2"
-                            className="align-left ml-[-5%] w-[20%] rounded-full border-[1px] border-palegreen "
+                            className="align-left ml-[-5%] w-[85px] rounded-full border-[1px] border-palegreen "
                         ></img>
                         <img
                             src={tech[2]}
                             alt="image-3"
-                            className="align-left ml-[-5%] w-[20%] rounded-full border-[1px] border-palegreen "
+                            className="align-left ml-[-5%] w-[85px] rounded-full border-[1px] border-palegreen "
                         ></img>
                     </div>
-                    <div className="col-span-2 my-2 items-center text-blue-500 sm:col-start-2 lg:col-start-2">
+                    <div className="sm:col-span-1 col-span-2 my-2 items-center text-blue-500 sm:col-start-2 lg:col-start-2">
                         <a href={link} title={link} target="blank">
                             <button className=" group relative inline-block cursor-pointer rounded-lg bg-slate-800 p-px text-xs font-semibold leading-6 text-white no-underline  shadow-2xl shadow-zinc-900">
                                 <span className=" absolute inset-0 overflow-hidden rounded-lg">

@@ -1,7 +1,7 @@
 const About = () => {
     return (
         <>
-            <div className="mt-20 flex flex-col items-center  overflow-hidden rounded-md bg-black bg-opacity-85">
+            <div id="about" className="mt-20 flex flex-col items-center  overflow-hidden rounded-md bg-black bg-opacity-85">
                 <h1 className="relative z-10 text-center text-5xl font-bold text-white md:text-6xl lg:text-7xl">
                     ABOUT ME
                 </h1>

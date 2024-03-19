@@ -3,12 +3,20 @@
 @tailwind utilities;
 
 .hover-navitem {
-    @apply transition-all duration-75 ease-in hover:border-b-2 hover:border-b-palewhite hover:px-2 hover:underline-offset-4;
+    @apply hover:-mx-2 hover:rounded-3xl hover:border hover:bg-white hover:px-2 hover:text-black;
 }
 .hover-dropdown {
-    @apply cursor-pointer transition-all duration-200 ease-linear hover:underline;
+    @apply cursor-pointer hover:border-transparent  hover:rounded-md hover:border hover:-m-2 hover:-mx-5 hover:bg-palewhite hover:bg-opacity-10 hover:p-2 hover:px-5;
 }
 
 .about-item {
-    @apply border border-paleblue rounded-xl p-2 m-1
+    @apply m-1 rounded-xl border border-paleblue p-2;
 }
+
+.input-contact {
+    @apply rounded-md bg-zinc-700 px-2 text-white outline-none;
+}
+
+/* * {
+    @apply transition-all ease-in-out
+} */
