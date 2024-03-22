@@ -6,27 +6,33 @@ const Footer = () => {
                     ©Parveen.Dev
                 </p>
                 <ProjectItem
-                    pic="./assets/vite.png"
+                    pic="./assets/vite.webp"
+                    alt="vite.webp"
                     title="Vite"
                 ></ProjectItem>
                 <ProjectItem
-                    pic="./assets/react.png"
+                    pic="./assets/react.webp"
+                    alt="react.webp"
                     title="React"
                 ></ProjectItem>
                 <ProjectItem
-                    pic="./assets/typescript.png"
+                    pic="./assets/typescript.webp"
+                    alt="typescript.webp"
                     title="TypeScript"
                 ></ProjectItem>
                 <ProjectItem
-                    pic="./assets/tailwindcss.png"
+                    pic="./assets/tailwindcss.webp"
+                    alt="Tailwind.webp"
                     title="Tailwind"
                 ></ProjectItem>
                 <ProjectItem
-                    pic="./assets/aceUI.png"
+                    pic="./assets/aceUI.webp"
+                    alt="AceternityUI.webp"
                     title="AceternityUI"
                 ></ProjectItem>
                 <ProjectItem
-                    pic="./assets/heart.png"
+                    pic="./assets/heart.webp"
+                    alt="heart.webp"
                     title="Love"
                 ></ProjectItem>
             </div>
@@ -36,12 +42,15 @@ const Footer = () => {
 const ProjectItem: React.FC<{
     pic: string
     title: string
-}> = ({ pic, title }) => {
+    alt: string
+}> = ({ pic, title , alt }) => {
     return (
         <>
             <div className="  flex justify-center">
                 <img
                     src={pic}
+                    loading="lazy"
+                    alt={alt}
                     className="h-12 rounded-xl border border-paleblue p-1 "
                 ></img>
                 <p className="hidden lg:m-3 lg:grid lg:w-12 ">{title}</p>

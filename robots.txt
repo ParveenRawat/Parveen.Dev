@@ -1,0 +1,3 @@
+Robots.txt file URL: https://parveen-dev.vercel.app
+
+User-agent: * Disallow: /

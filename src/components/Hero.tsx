@@ -8,7 +8,6 @@ const hero = () => {
     return (
         <>
             {/* TODO : ADD : Tech Stack */}
-            {/* TODO : FIX : Button Links */}
             <div
                 id="home"
                 className="relative top-20 flex h-[45rem] w-full flex-col justify-center overflow-hidden bg-black"
@@ -36,11 +35,11 @@ const hero = () => {
                             I like programming and game development.
                         </div>
                     </div>
-                    <div className="col-span-2 -mb-28 mt-12 flex justify-center gap-10 p-3 text-2xl text-white sm:gap-20 lg:mb-0">
+                    <div className="col-span-2 -mb-28 mt-12 flex justify-center gap-3 p-3 text-2xl text-white sm:gap-20 lg:mb-0">
                         <button className=" group relative inline-block w-40 cursor-pointer rounded-lg bg-slate-800 p-px text-xs font-semibold leading-6 text-white no-underline  shadow-2xl shadow-zinc-900">
                             <a
-                                href="./assets/Under Progress.png"
-                                download="./assets/Under Progress.png"
+                                href="./assets/Under Progress.webp"
+                                download="./assets/Under Progress.webp"
                             >
                                 <span className=" absolute inset-0 overflow-hidden rounded-lg">
                                     <span className="absolute inset-0 rounded-lg bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100"></span>

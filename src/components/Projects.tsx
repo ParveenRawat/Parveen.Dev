@@ -21,56 +21,51 @@ const Projects = () => {
                             algorithm and Natural Language Processing to find
                             sentiment of the text with advanced techniques such
                             as lemmatization."
-                    head="./assets/Email.png"
+                    head="./assets/Email.webp"
                     tech={[
-                        './assets/Python.png',
-                        './assets/SciKitLearn.png',
-                        './assets/JupyterNotebook.png',
+                        './assets/Python.webp',
+                        './assets/SciKitLearn.webp',
+                        './assets/JupyterNotebook.webp',
                     ]}
                     link="https://github.com/ParveenRawat/MachineLearning/blob/main/emailclassificationwithNB.ipynb"
                 />
                 <ProjectItem
                     title="Under Progress"
-                    info="Lorem ipsum dolor sit amet consectetur adipisicing
-                         elit. Ad blanditiis ut similique. Eaque dolorem corporis
-                          voluptate ab repellendus reiciendis voluptatibus. Odit
-                           ab obcaecati error, eos deserunt praesentium vero quasi 
-                           deleniti."
-                    head="./assets/Cog.png"
+                    info="Exciting announcement coming soon! Stay tuned
+                     for updates on our upcoming project. Innovation,
+                      creativity, and excellence await.
+                       Don't miss out on what's next!"
+                    head="./assets/Cog.webp"
                     tech={[
-                        './assets/Cog.png',
-                        './assets/Cog.png',
-                        './assets/Cog.png',
+                        './assets/Cog.webp',
+                        './assets/Cog.webp',
+                        './assets/Cog.webp',
                     ]}
                     link="https://www.google.com/"
                 />
                 <ProjectItem
                     title="Under Progress"
-                    info="Lorem ipsum dolor sit amet consectetur adipisicing
-                         elit. Ad blanditiis ut similique. Eaque dolorem corporis
-                          voluptate ab repellendus reiciendis voluptatibus. Odit
-                           ab obcaecati error, eos deserunt praesentium vero quasi 
-                           deleniti."
-                    head="./assets/Cog.png"
+                    info="Exciting announcement coming soon! Stay tuned
+                     for updates on our upcoming project. Innovation,
+                      creativity, and excellence await.
+                       Don't miss out on what's next!"
+                    head="./assets/Cog.webp"
                     tech={[
-                        './assets/Cog.png',
-                        './assets/Cog.png',
-                        './assets/Cog.png',
+                        './assets/Cog.webp',
+                        './assets/Cog.webp',
+                        './assets/Cog.webp',
                     ]}
                     link="https://www.google.com/"
                 />
                 <ProjectItem
                     title="Under Progress"
-                    info="Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Ad blanditiis ut similique. Eaque dolorem corporis
-                    voluptate ab repellendus reiciendis voluptatibus. Odit
-                    ab obcaecati error, eos deserunt praesentium vero quasi 
-                    deleniti."
-                    head="./assets/Cog.png"
+                    info="Exciting announcement coming soon! Stay tuned for updates on our 
+                    upcoming project. Innovation, creativity, and excellence await. Don't miss out on what's next!"
+                    head="./assets/Cog.webp"
                     tech={[
-                        './assets/Cog.png',
-                        './assets/Cog.png',
-                        './assets/Cog.png',
+                        './assets/Cog.webp',
+                        './assets/Cog.webp',
+                        './assets/Cog.webp',
                     ]}
                     link="https://www.google.com/"
                 />
@@ -92,10 +87,11 @@ const ProjectItem: React.FC<{
         <>
             <div className="m-2 rounded-3xl border-2 border-paleblue bg-gray-600 bg-opacity-10 p-2 backdrop-blur">
                 <div className="grid-row-2 grid grid-cols-2 place-items-center justify-items-center sm:grid-cols-3 ">
-                    <h1 className="col-span-2 mb-4 pt-4 text-center text-2xl sm:text-4xl font-semibold text-white sm:col-span-3">
+                    <h1 className="col-span-2 mb-4 pt-4 text-center text-2xl font-semibold text-white sm:col-span-3 sm:text-4xl">
                         {title}
                     </h1>
                     <img
+                        loading="lazy"
                         src={head}
                         alt="project.jpg"
                         className="col-span-2 w-[50] rounded-2xl border-2 border-palewhite sm:col-span-1 sm:row-span-1 sm:w-[80%]"
@@ -109,22 +105,25 @@ const ProjectItem: React.FC<{
                     {/* TODO UPDATE TO FOR LOOP */}
                     <div className="col-span-3 flex h-28 justify-center p-3">
                         <img
+                            loading="lazy"
                             src={tech[0]}
                             alt="image-1"
                             className="align-left  w-22 rounded-full border-[1px] border-palegreen "
                         ></img>
                         <img
+                            loading="lazy"
                             src={tech[1]}
                             alt="image-2"
                             className="align-left ml-[-5%] w-[85px] rounded-full border-[1px] border-palegreen "
                         ></img>
                         <img
+                            loading="lazy"
                             src={tech[2]}
                             alt="image-3"
                             className="align-left ml-[-5%] w-[85px] rounded-full border-[1px] border-palegreen "
                         ></img>
                     </div>
-                    <div className="sm:col-span-1 col-span-2 my-2 items-center text-blue-500 sm:col-start-2 lg:col-start-2">
+                    <div className="col-span-2 my-2 items-center text-blue-500 sm:col-span-1 sm:col-start-2 lg:col-start-2">
                         <a href={link} title={link} target="blank">
                             <button className=" group relative inline-block cursor-pointer rounded-lg bg-slate-800 p-px text-xs font-semibold leading-6 text-white no-underline  shadow-2xl shadow-zinc-900">
                                 <span className=" absolute inset-0 overflow-hidden rounded-lg">

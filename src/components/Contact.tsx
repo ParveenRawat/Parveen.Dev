@@ -64,7 +64,7 @@ const Contact = () => {
                         id="form"
                         className="m-5 my-2 grid grid-cols-2 grid-rows-9 gap-4 sm:gap-2"
                     >
-                        <p className="col-span-2 pt-2">Name</p>
+                        <label className="col-span-2 pt-2">Name</label>
                         <input
                             type="text"
                             onKeyDown={(event) => {
@@ -73,7 +73,7 @@ const Contact = () => {
                             name="name"
                             className="input-contact col-span-2 h-8  "
                         ></input>
-                        <p className="col-span-2 pt-2">Email</p>
+                        <label className="col-span-2 pt-2">Email</label>
                         <input
                             onKeyDown={(event) => {
                                 handleChange(event)
@@ -82,7 +82,7 @@ const Contact = () => {
                             name="email"
                             className="input-contact col-span-2 h-8"
                         ></input>
-                        <p className="col-span-2 pt-2">Feedback or Comments</p>
+                        <label className="col-span-2 pt-2">Feedback or Comments</label>
                         <textarea
                             name="message"
                             className="input-contact col-span-2  row-span-2 resize-none pt-2 sm:row-span-3"

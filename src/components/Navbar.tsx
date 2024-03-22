@@ -27,8 +27,6 @@ const Navbar = () => {
     }
     return (
         <>
-            {/* TODO : FIX : Social Links */}
-            {/* TODO : FIX : navbar and sidebar hover  */}
             <div className=" fixed left-0 top-0 z-20 flex w-screen items-center justify-between border-b-[1px] border-b-palewhite bg-black bg-opacity-10 text-opacity-100 shadow-md shadow-paleblue backdrop-blur-md backdrop-brightness-[0.5]">
                 <div>
                     <span className="m-2 ml-5  flex-nowrap text-nowrap text-xl text-white">
@@ -36,7 +34,7 @@ const Navbar = () => {
                     </span>
                 </div>
 
-                <div className="hidden rounded-3xl border p-2 px-4  text-white md:ml-[-10%] md:flex">
+                <div className="hidden rounded-full border p-2 px-4  text-white md:ml-[-10%] md:flex">
                     <ul className="flex cursor-pointer  items-center justify-between gap-8 px-2">
                         <li
                             className="hover-navitem"
@@ -80,6 +78,7 @@ const Navbar = () => {
                         <Navlink
                             icon={<IoLogoGithub fill="#FCFBF9" size={24} />}
                         />
+                        <p className="sr-only">GitHub</p>
                     </a>
                     <a
                         target="blank"
@@ -88,6 +87,7 @@ const Navbar = () => {
                         <Navlink
                             icon={<IoLogoInstagram fill="#FCFBF9" size={24} />}
                         />
+                        <p className="sr-only">Instagram</p>
                     </a>
                     <a
                         target="blank"
@@ -95,7 +95,8 @@ const Navbar = () => {
                     >
                         <Navlink
                             icon={<IoLogoLinkedin fill="#FCFBF9" size={24} />}
-                        />
+                        ></Navlink>
+                        <p className="sr-only">LinkedIn</p>
                     </a>
                 </div>
                 <div className="m-2 text-white md:hidden">
@@ -174,6 +175,5 @@ const Navlink = ({ icon }) => {
         </div>
     )
 }
-
 
 export default Navbar
