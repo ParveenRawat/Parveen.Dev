@@ -30,18 +30,19 @@ const Projects = () => {
                     link="https://github.com/ParveenRawat/MachineLearning/blob/main/emailclassificationwithNB.ipynb"
                 />
                 <ProjectItem
-                    title="Under Progress"
-                    info="Exciting announcement coming soon! Stay tuned
-                     for updates on our upcoming project. Innovation,
-                      creativity, and excellence await.
-                       Don't miss out on what's next!"
-                    head="./assets/Cog.webp"
+                    title="Knight's Adventure"
+                    info="Created a game in the Godot 4 engine with many 
+                          features such as physics based movements, enemy 
+                          ai and moving platforms.Used GDScript, which is 
+                          an interpreted language similar to python to 
+                          interact with the elements of the game"
+                    head="./assets/icon.png"
                     tech={[
-                        './assets/Cog.webp',
-                        './assets/Cog.webp',
-                        './assets/Cog.webp',
+                        './assets/godot.png',
+                        './assets/GDScript.png',
+                        './assets/aseprite.png',
                     ]}
-                    link="https://www.google.com/"
+                    link="https://github.com/ParveenRawat/Knight-s-Adventure/"
                 />
                 <ProjectItem
                     title="Under Progress"

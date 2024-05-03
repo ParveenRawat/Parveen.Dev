@@ -59,12 +59,15 @@ const Contact = () => {
                 </div>
 
                 <div className="m-4 h-[65vh] w-[90%] rounded-3xl bg-gray-600 bg-opacity-10 p-2 pt-3 backdrop-blur-md lg:h-[60vh] lg:w-[60%] ">
+                    {/* TODO : Fix Label for the input fields */}
                     <form
                         onSubmit={onSubmit}
                         id="form"
                         className="m-5 my-2 grid grid-cols-2 grid-rows-9 gap-4 sm:gap-2"
                     >
-                        <label className="col-span-2 pt-2">Name</label>
+                        <label id="name" className="col-span-2 pt-2">
+                            Name
+                        </label>
                         <input
                             type="text"
                             onKeyDown={(event) => {
@@ -73,7 +76,9 @@ const Contact = () => {
                             name="name"
                             className="input-contact col-span-2 h-8  "
                         ></input>
-                        <label className="col-span-2 pt-2">Email</label>
+                        <label id="email" className="col-span-2 pt-2">
+                            Email
+                        </label>
                         <input
                             onKeyDown={(event) => {
                                 handleChange(event)
@@ -82,7 +87,9 @@ const Contact = () => {
                             name="email"
                             className="input-contact col-span-2 h-8"
                         ></input>
-                        <label className="col-span-2 pt-2">Feedback or Comments</label>
+                        <label id="message" className="col-span-2 pt-2">
+                            Feedback or Comments
+                        </label>
                         <textarea
                             name="message"
                             className="input-contact col-span-2  row-span-2 resize-none pt-2 sm:row-span-3"
